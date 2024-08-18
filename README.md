@@ -10,10 +10,10 @@ Lo scopo è creare le feature per un possibile modello di machine learning super
 # Database 
 Il database è costituito dalle seguenti tabelle:
 ## cliente
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+| id_cliente  | nome | cognome | data_nascita |
+| -- | ------------- | - | - |
+| 0  | Giada  | Romano | 1958-07-12 |
+
 ## conto
 ## tipo_conto
 ## tipo_transazione
