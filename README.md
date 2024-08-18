@@ -11,13 +11,23 @@ Lo scopo è creare le feature per un possibile modello di machine learning super
 Il database è costituito dalle seguenti tabelle:
 ## cliente
 | id_cliente  | nome | cognome | data_nascita |
-| -- | ------------- | - | - |
+| - | - | - | - |
 | 0  | Giada  | Romano | 1958-07-12 |
+| 1  | Stefano  | Rossi | 1958-07-12 |
 
 ## conto
+| id_conto  | id_cliente | id_tipo_conto |
+| - | - | - |
+| 0  | 197  | 3 |
+| 1  | 124  | 3 |
+
 ## tipo_conto
 ## tipo_transazione
 ## transazioni
+| data  | id_tipo_trans | importo | id_conto |
+| - | - | - | - |
+| 1958-07-12 | 0  | 31.3495748573759 | 238 |
+| 1958-07-12 | 2  | 216.463828474664 | 81 |
 
 # Indicatori da creare
 
