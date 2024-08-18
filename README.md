@@ -1,6 +1,6 @@
 # Analisi-di-un-sistema-bancario
 
-Analisi di un Sistema Bancario
+Caso d'uso Bancario
 
 # Obiettivo del progetto
 Creare una tabella denormalizzata che contenga indicatori comportamentali sul cliente, calcolati sulla base delle transazioni e del possesso prodotti. 
