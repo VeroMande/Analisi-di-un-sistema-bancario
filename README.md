@@ -9,21 +9,33 @@ Lo scopo è creare le feature per un possibile modello di machine learning super
 
 # Database 
 Il database è costituito dalle seguenti tabelle:
-## cliente
+### cliente
 | id_cliente  | nome | cognome | data_nascita |
 | - | - | - | - |
 | 0  | Giada  | Romano | 1958-07-12 |
 | 1  | Stefano  | Rossi | 1958-07-12 |
 
-## conto
+### conto
 | id_conto  | id_cliente | id_tipo_conto |
 | - | - | - |
 | 0  | 197  | 3 |
 | 1  | 124  | 3 |
 
-## tipo_conto
-## tipo_transazione
-## transazioni
+### tipo_conto
+| id_tipo_conto  | desc_tipo_conto |
+| - | - |
+| 0  | Conto Base  |
+| 1  | Conto Business  | 
+| 2  | Conto Privati  | 
+| 3  | Conto Famiglie  | 
+
+### tipo_transazione
+| id_tipo_transazione  | desc_tipo_trans | segno |
+| - | - | - |
+| 0  | Stipendio  | + |
+| 1  | Pensione  | - |
+
+### transazioni
 | data  | id_tipo_trans | importo | id_conto |
 | - | - | - | - |
 | 1958-07-12 | 0  | 31.3495748573759 | 238 |
