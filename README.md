@@ -2,16 +2,19 @@
 
 Analisi di un Sistema Bancario
 
-Creare una tabella denormalizzata che contenga indicatori comportamentali sul cliente, calcolati sulla base delle transazioni e del possesso prodotti. Lo scopo è creare le feature per un possibile modello di machine learning supervisionato.
+# Obiettivo del progetto
+
+Creare una tabella denormalizzata che contenga indicatori comportamentali sul cliente, calcolati sulla base delle transazioni e del possesso prodotti. 
+Lo scopo è creare le feature per un possibile modello di machine learning supervisionato.
+
 
 # Database 
-Il database (che puoi scaricare qui) è costituito dalle seguenti tabelle:
-
-# cliente
-# conto
-# tipo_conto
-# tipo_transazione
-# transazioni
+Il database è costituito dalle seguenti tabelle:
+## cliente
+## conto
+## tipo_conto
+## tipo_transazione
+## transazioni
 
 # Indicatori da creare
 
